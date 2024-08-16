@@ -1,0 +1,38 @@
+{
+  "name": "sys-conv-util",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node _tests/index.test.js"
+  },
+  "files": [
+    "src/",
+    "package.json"
+  ],
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "bin",
+    "binary",
+    "conversions",
+    "base64",
+    "utf8",
+    "conversion",
+    "base64",
+    "base2",
+    "base10",
+    "text",
+    "javascript",
+    "utility"
+  ],
+  "description": "Uma função utilitária para conversões entre sistemas numéricos (Base10, Base2, Base64) e texto em JavaScript.",
+  "author": "LucasLessaAnacleto",
+  "license": "ISC",
+  "homepage": "https://github.com/LucasLessaAnacleto/sys-conv-util#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasLessaAnacleto/sys-conv-util.git"
+  }
+}
